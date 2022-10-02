@@ -728,3 +728,43 @@ figcaption{
     color: #fff;
     text-decoration: none;
 }
+
+
+/*  CONTACT STYLES */
+#contact-links{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background-color: #004fa2;
+    text-align: center;
+    padding: 0 30px;
+    color: #fff;
+}
+#contact-links #contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+#contact-links #contact-info a{
+    color: #fff;
+    text-decoration: none;
+}
+.dark-col{
+    background-color: #0c3056;
+    padding: 20px;
+}
+.contact-form{
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin: 15px;
+}
+.contact-form span{
+    color: red;
+}
+.contact-form button{
+    color: #fff;
+    background-color: #004fa2;
+    margin-top: 15px;
+}
