@@ -22,6 +22,9 @@ nav{
     background-color: #000;
     
 }
+nav ul li a{
+    color: #fff;
+}
 .navbar-toggler{
     background: #fff;
     border: none;
@@ -47,11 +50,11 @@ nav{
 
 .navbar-expand-lg .navbar-nav .nav-link{
     padding: 1rem;
-    
     position: relative;
     
 }
-.navbar-expand-lg .navbar-nav .nav-link:hover{
+
+/* .navbar-expand-lg .navbar-nav .nav-link:hover{
    border-top: 2px solid rgb(41, 41, 215);
     
 }
@@ -59,10 +62,11 @@ nav{
     border-top: 2px solid rgb(41, 41, 215);
     color: rgb(41, 41, 215);
      
- }
+ } */
 nav a{
     font-size: 12px;
     font-weight: 700;
+    color: #fff;
 }
 
 
@@ -72,9 +76,11 @@ a{
     color: #fff;
     text-decoration: none;
 }
-a:hover{
+/* a:hover{
     color: blue;
-}
+} */
+
+
 .check{
     width: 100%;
     height: 100%;
@@ -424,6 +430,15 @@ figcaption{
 
 
 @media screen and (max-width: 768px){
+    #navmenu{
+        position: relative;
+        background-color: #fff;
+        
+    }
+    nav ul li a{
+       font-size: 16px;
+       color: red;
+    }
     #footer{
         text-align: center;
         justify-content: center;
@@ -546,6 +561,14 @@ figcaption{
 
 
 @media screen and (min-width: 768px) {
+    #navmenu{
+        margin-left: 50px;
+    }
+    nav .navbar-nav .nav-item{
+       
+        margin-left: 30px;
+        color: #fff;
+    }
     #main h1{
         text-align: left;
         font-size: 50px;
